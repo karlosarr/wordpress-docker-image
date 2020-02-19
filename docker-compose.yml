@@ -3,7 +3,6 @@ version: '3.1'
 services:
 
   wordpress:
-    #image: wordpress
     build:
       context: wordpress
     restart: always
